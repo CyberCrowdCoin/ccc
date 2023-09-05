@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/solution.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <title>Responsive navigation bar - Bedimcode</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-code-s-slash-line"></i> Menu Item
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">                      
+                        <div class="nav__link dropdown__button">
+                            Products <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-flashlight-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Most viewed courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">HTML for beginners</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Advanced CSS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">JavaScript OOP</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Popular courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Development with Flutter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web development with React</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Backend development expert</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-mark-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Careers</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Applications development</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">UI/UX design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Informatic security</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-file-paper-2-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Certifications</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Course certificates</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Free certifications</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Solutions <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Web templates</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Free templates</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Premium templates</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-pen-nib-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Designs</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Web designs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">App designs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Component design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-apps-2-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Others</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Recent blogs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Tutorial videos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Webinar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link">About us</a>
+                    </li>
+
+<!--================================================== DROPDOWN 3 =================================================-->
+                    <li class="dropdown__item">                        
+                        <div class="nav__link dropdown__button">
+                            Support <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">About us</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-shield-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Safety and quality</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cookie settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+<!--------------------------------------------solutions-------------------------------------------------------------->
+    <div class="main">
+    <div class="main__container">
+        <div class="main__content">
+            <h1>SOLUTIONS</h1>
+            <h2>4G Android</h2>
+            <p>Millions of business of all sizes-from starts ups to large enterprises-use stripe's 
+                software and API's to accept payments, send payouts, and manage their business online.
+            </p>
+            <button class="main__btn"><a href="/">Start Now</a></button>
+        </div>
+        <div class="main__img--container">
+            <img src="./images/yourbrandname.png" alt="pic" id="main__img">
+        </div>
+    
+<!----------------------------------------------solution summary----------------------------------------------------->
+        <div class="main1">
+            <div class="main__container1">
+                <div class="main__content1">
+                    <h1>Solution Summary</h1>
+                    <p>REVE OTT is a customized and white-label mobile OTT solution that allows Communication Service Providers to build their VoIP-based own branded mobile OTT app and launch service on the existing network. Users registered under Service Provider’s brand can communicate with each other through this app over multiple platforms such as Android, iOS, Windows, and PC.</p>
+                    <p>As a service provider, you can launch or upgrade your OTT Communication Services with Instant Messaging (IM), Media Sharing, Audio-Video Calling, Mobile Recharges, and many more value-added features. REVE OTT helps you to drive traffic and grow your user base while retaining existing users.</p>
+                    <p>Adding mobile OTT features, communication service providers can fight the rising competition from top OTT players like Skype, WhatsApp, Viber, and others without bringing any change to their existing business.</p>
+                    <p>Not only service providers, but REVE OTT solution is also useful for landline and mobile operators, who want to create their own communication app with Voice, Video, Virtual Roaming, and other OTT features.</p>                
+                </div>
+            </div>
+        </div>
+<!----------------------------------------------solution Highlights------------------------------------------------------------->
+        <div class="solution">
+            <h1>Solution Highlights</h1>
+            <div class="testimonials">
+                <div class="inner">
+                  <div class="row">
+                    <div class="col">
+                      <div class="testimonial">
+                        <img src="./images/smartphone.png" alt="">
+                        <div class="name">White Label & Customizable</div>
+                        <p>
+                            Select and create a version, skin, language & settings under your brand to suit your specific needs & gain a competitive advantage over other mobile OTT players in the market.
+                        </p>
+                      </div>
+                    </div>          
+                    <div class="col">
+                      <div class="testimonial">
+                        <img src="./images/wifi-signal.png" alt="">
+                        <div class="name">Best Quality in Low Bandwidth Areas</div>
+                        <p>
+                            Empowers users to make crystal clear high definition audio-video calls over any connection, from anywhere even in low bandwidth areas and restricted networks.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="testimonial">
+                          <img src="./images/voip.png" alt="">
+                          <div class="name">Faster Calling & Messaging</div>
+                          <p>
+                            Users can enjoy HD voice, video calling, and messaging with attractive emoticons, media sharing, location tracking, and many rich features.
+                          </p>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="testimonial">
+                        <img src="./images/bar-chart.png" alt="">
+                        <div class="name">New Revenue Streams</div>
+                        <p>
+                            A customized OTT app & service, with your own logo and branding, give you advantages to capitalize on your existing customer base & increase your revenue.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+<!------------------------------------------------------tab---------------------------------------------------------->
+        <div>
+            <h1 class="tab">Tabs</h1>
+            <div class="tabContainer">
+                <div class="buttonContainer">
+                    <button onclick="showPanel(0,'grey')">TECHNICAL SPECIFICATION</button>
+                    <button onclick="showPanel(1,'grey')">DOWNLOADS</button>
+                    <button onclick="showPanel(2,'grey')">Tab 3</button>
+                    <button onclick="showPanel(3,'grey')">Tab 4</button>
+                </div>
+                <div class="tabPanel">TECHNICAL SPECIFICATION
+                    <h1>REVE Mobile OTT solution always uses the 
+                        latest trends in audio codec and transportation 
+                        technology, so that service providers can keep up 
+                        with the latest innovations and best serve their end users</h1>
+                        <div class="list">  
+                            <li>Up to 1024 Bit RSA Encryption</li>
+                            <li>Session Initiation Protocol (SIP)</li>
+                            <li>Supported Codecs – g729, AMR, GSM, g711 and Opus</li>
+                            <li>UDP and TCP Transport</li>
+                        </div>
+                </div>
+                <div class="tabPanel">Downloads
+                    <h1>REVE Mobile OTT solution always uses the 
+                        latest trends in audio codec and transportation 
+                        technology, so that service providers can keep up 
+                        with the latest innovations and best serve their end users
+                    </h1>
+                        <div class="list">
+                            <li>Up to 1024 Bit RSA Encryption</li>
+                            <li>Session Initiation Protocol (SIP)</li>
+                        </div>
+                </div>        
+                <div class="tabPanel">Tab 3:Content</div>
+                <div class="tabPanel">Tab 4:Content</div>
+            </div>
+        </div>
+<!-----------------------------------------------------title-------------------------------------------------------->
+        <div>
+            <h1 class="title">SUPPORT INDUSTRIES</h1>
+            <div class="titleContainer">
+                <div class="titlebuttonContainer">
+                    <button onclick="showPanel(0,'grey')">Retails</button>
+                    <button onclick="showPanel(1,'grey')">SMB's</button>
+                    <button onclick="showPanel(2,'grey')">Tab 3</button>
+                    <button onclick="showPanel(3,'grey')">Tab 4</button>
+                </div>
+                <div class="titlePanel">TECHNICAL SPECIFICATION
+                    <h1>REVE Mobile OTT solution always uses the 
+                        latest trends in audio codec and transportation 
+                        technology, so that service providers can keep up 
+                        with the latest innovations and best serve their end users</h1>
+                        <div class="list">  
+                            <li>Up to 1024 Bit RSA Encryption</li>
+                            <li>Session Initiation Protocol (SIP)</li>
+                            <li>Supported Codecs – g729, AMR, GSM, g711 and Opus</li>
+                            <li>UDP and TCP Transport</li>
+                        </div>
+                </div>
+                <div class="titlePanel">Downloads
+                    <h1>REVE Mobile OTT solution always uses the 
+                        latest trends in audio codec and transportation 
+                        technology, so that service providers can keep up 
+                        with the latest innovations and best serve their end users
+                    </h1>
+                        <div class="list">
+                            <li>Up to 1024 Bit RSA Encryption</li>
+                            <li>Session Initiation Protocol (SIP)</li>
+                        </div>
+                </div>        
+                <div class="titlePanel">Tab 3:Content</div>
+                <div class="titlePanel">Tab 4:Content</div>
+            </div>
+        </div>
+<!------------------------------------------------------device------------------------------------------------------>
+        <div class="device">
+            <div class="device__container">
+                <h1>Why Sould You Have This Device</h1>
+                <div class="device__content">
+                        <li>
+                            Maximizing revenue from virtual roaming
+                        </li>
+                        <li>
+                            Attaining revenue from global Voice 
+                            calling & SMS. The balance will deduct from GSM Account
+                        </li>
+                        <li>
+                            Personalized Ad targeting through the segmented user 
+                            base
+                        </li>
+                        <li>
+                            Enabling Operators to access competitors’ customer 
+                            base by engaging them with your OTT apps and then 
+                            sending them different promotional content
+                        </li>
+                        <li>
+                            Can sell Personal DID Number to the end-user
+                        </li>
+                        <li>
+                            Can offer Mobile TOP-UP
+                        </li>
+                        <li>
+                            Can sell VAS service from OTT Application
+                        </li>
+                        <li>
+                            Instead of sending VAS content in SMS, 
+                            the Operator can send it through IM message 
+                            to the end-user to save SMS cost
+                        </li>
+                        <li>
+                            As IM support rich content, any type of 
+                            content can be sent
+                        </li>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------------------------------------Case References-------------------------->
+        <div class="references">
+            <h1>Case Reference</h1>
+            <div class="reference">
+                <div class="reference__container">
+                    <div class="reference__img">
+                        <img src="./images/apple.svg">
+                        <h2>ISO</h2>
+                    </div>
+                    <div class="reference__img">
+                        <img src="./images/android.svg">
+                        <h2>Android</h2>
+                    </div>
+                    <div class="reference__img">
+                        <img src="./images/computer-solid.svg">
+                        <h2>Web<h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------------------------------------------------------Contact Form---------------------------->
+        <div class="container__mt-5">
+            <h1>Looking for Mobile OTT Solution for Business?</h1>
+            <h2>Please fill in your Details for a Free Demo</h2>
+            <form class="row g-3" action="https://formsubmit.co/28645c6a894091abf53c4daa0bdc0667" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://rajatmehra634.github.io/formssubmitdemo/success.html" >
+
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="name" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" name="email" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+91 (000) 000-0000">
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Comments, questions?</label>
+                <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+<!----------------------------------------------------------------------footer--------------------------------------------------------------->
+        <footer class="footer">
+            <div class="containers">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+<!-------------------------------------------------------------------footer1------------------------------------------>
+       <div class="footer1">
+            <h1>By I.go.Tech</h1>
+       </div>
+
+        </div>
+    </div>
+    <div>
+        <script src="myScript.js"></script>
+    </div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>    
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
