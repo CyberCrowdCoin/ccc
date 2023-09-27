@@ -1,110 +1,115 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="./assets/css/home.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fontawesome.com/releases/v5.6.3/css/all.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppinis:wght@500;600&display=swap">
-        
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppinis:wght@500;600&display=swap">
 
 
-     <title> An Innovative Web3 Collaborative Platform </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header">
-            <nav class="nav container">
-                <div class="nav__data">
-                    <img src="./images/logo.png " alt="icon">
-                    <!-- <a href="#" class="nav__logo">CCC PROTOCOL</a> -->
-    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line nav__toggle-menu"></i>
-                        <i class="ri-close-line nav__toggle-close"></i>
-                    </div>
+
+    <title> An Innovative Web3 Collaborative Platform </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <img src="./images/logo.png " alt="icon">
+                <!-- <a href="#" class="nav__logo">CCC PROTOCOL</a> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
                 </div>
-                <!--=============== NAV MENU ===============-->
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                       <!-- <li>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- <li>
                             <a href="#" class="nav__link">Home</a>
                         </li>---------------------------------------------------------------COMMENT OUT HOME BUTTTON>                                                   
 
                         <!=============== DROPDOWN 1 ===============-->
-                        <li class="dropdown__item">                      
-                            <div class="nav__link " onclick="scrollToSection('section-3',105)">
-                                 Core Solution
-                                <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
-                            </div>
+                    <li class="dropdown__item">
+                        <div class="nav__link " onclick="scrollToSection('section-3',105)">
+                            Core Solution
+                            <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+                        </div>
 
-                            
-                        </li>
 
-                        <!--=============== DROPDOWN 2 ===============-->
-                        <li class="dropdown__item">
-                            <div class="nav__link " onclick="scrollToSection('section-3',1)">
-                                Application Sence 
-                                <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
-                            </div>
+                    </li>
 
-                            
-                        </li>
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link " onclick="scrollToSection('section-3',1)">
+                            Application Sence
+                            <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+                        </div>
 
-                        <li class="dropdown__item">
-                            <div class="nav__link " onclick="scrollToSection('section-4',13)">
-                                The Ecology of CyberCrowdCoin Protocol 
-                                <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
-                            </div>
-                        </li>
-                        <li class="dropdown__item">
-                            <div class="nav__link " onclick="scrollToSection('section-5',5)">
-                                RoadMap 
-                                <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
-                            </div>
-                        </li>
 
-                        <!--=============== DROPDOWN 3 ===============-->
-                        <li class="dropdown__item">                        
-                            <div class="nav__link dropdown__button">
-                                Build <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
+                    </li>
 
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-                                    <div class="dropdown__group dropdown__group1">
-                                        <div class="dropdown__icon" onclick="openPdf()" style="cursor: pointer;">
-                                            <i class="ri-pages-line"></i>
-                                        </div>
+                    <li class="dropdown__item">
+                        <div class="nav__link " onclick="scrollToSection('section-4',13)">
+                            The Ecology of CyberCrowdCoin Protocol
+                            <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+                        </div>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link " onclick="scrollToSection('section-5',5)">
+                            RoadMap
+                            <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+                        </div>
+                    </li>
 
-                                        <span class="dropdown__title" onclick="openPdf()" style="cursor: pointer;">Whitepaper</span>
-    
-                                        
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Build <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group dropdown__group1">
+                                    <div class="dropdown__icon" onclick="openPdf()" style="cursor: pointer;">
+                                        <i class="ri-pages-line"></i>
                                     </div>
-    
-                                    <div class="dropdown__group dropdown__group2 ">
-                                        <div onclick="openLink('https://github.com/CyberCrowdCoin')" class="dropdown__icon" style="cursor: pointer;">
-                                            <i class="ri-github-fill"></i>
-                                        </div>
-    
-                                        <span onclick="openLink('https://github.com/CyberCrowdCoin')" class="dropdown__title" style="cursor: pointer;" >Github</span>
-    
+
+                                    <span class="dropdown__title" onclick="openPdf()"
+                                        style="cursor: pointer;">Whitepaper</span>
+
+
+                                </div>
+
+                                <div class="dropdown__group dropdown__group2 ">
+                                    <div onclick="openLink('https://github.com/CyberCrowdCoin')" class="dropdown__icon"
+                                        style="cursor: pointer;">
+                                        <i class="ri-github-fill"></i>
                                     </div>
+
+                                    <span onclick="openLink('https://github.com/CyberCrowdCoin')"
+                                        class="dropdown__title" style="cursor: pointer;">Github</span>
+
                                 </div>
                             </div>
-                        </li>
+                        </div>
+                    </li>
 
-                               
-                        
-                        
-                        
-                        <!-- <li>
+
+
+
+
+                    <!-- <li>
                             <div class="dropdown dropdown__item">
                                 <div class="dropdown__content">
                                     <div class="dropdown-button">Menu</div>
@@ -121,391 +126,581 @@
 
 
 
-                    </ul>
-                </div>
-            </nav>
-        </header>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
-        <!-- header 2  -->
-        
-        <!---------------------------------main section----------------------------------------------------------->
-        <section id="section-1">
-            <div class="main">
-                    <canvas id="gradient-canvas"></canvas>
-                <div class="main__container">
-                    <div class="main__content">
-                        <h1>CyberCrowdCoin </h1>
-                        <h2>An Innovative Web3 Collaborative Platform</h2>
-                        <a id="scroll-btn" href="#section-2" onclick="scrollToSection('section-3',105)"></a>
-                    </div>
+    <!-- header 2  -->
+
+    <!---------------------------------main section----------------------------------------------------------->
+    <section id="section-1">
+        <div class="main">
+            <canvas id="gradient-canvas"></canvas>
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>CyberCrowdCoin </h1>
+                    <h2>An Innovative Web3 Collaborative Platform</h2>
+                    <a id="scroll-btn" href="#section-2" onclick="scrollToSection('section-3',105)"></a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!-------------------------------------goal Section------------------------------------------>
-        <section id="section-2  mt-1">
-            <div class="section-goal">
-                <div class="goal-head">
-                    <h1>The Vision of the Web3 Collaborative Platform</h1>
-                    <div id="goal" class="goal">
-                        <div class="goal-img">
-                            <!-- <img src="./images/Vision.gif"> -->
-                            <video class="goal-video"  preload="auto" autoplay muted loop width=”500px” style="margin-left: 3rem;" width="600px" height="500px">
-                                <source src="./images/vision.webm" type="video/webm">
-            
-                                
-                            </video>
-                        </div>
-                        <div class="goal-text">
+    <!-------------------------------------goal Section------------------------------------------>
+    <section id="section-2  mt-1">
+        <div class="section-goal">
+            <div class="goal-head">
+                <h1>The Vision of the Web3 Collaborative Platform</h1>
+                <div id="goal" class="goal">
+                    <div class="goal-img">
+                        <!-- <img src="./images/Vision.gif"> -->
+                        <video class="goal-video" preload="auto" autoplay muted loop width=”500px”
+                            style="margin-left: 3rem;" width="600px" height="500px">
+                            <source src="./images/vision.webm" type="video/webm">
 
-                            <div class="contents">
-                              <div class="content ">
-                                    <h3  class="animated-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="m20 22l-3.86-1.55c.7-1.53 1.2-3.11 1.51-4.72L20 22M7.86 20.45L4 22l2.35-6.27c.31 1.61.81 3.19 1.51 4.72M12 2s5 2 5 10c0 3.1-.75 5.75-1.67 7.83A2 2 0 0 1 13.5 21h-3a2 2 0 0 1-1.83-1.17C7.76 17.75 7 15.1 7 12c0-8 5-10 5-10m0 10c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2Z"/></svg> User data control and privacy protection</h3>
-                                    <p>Users can independently select whether to share specific data with other users or organizations, thus achieving a true sense of data autonomy and privacy protection.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="contents">
-                                <div class="content ">
-                                </div>
-                                <div class="content ">
-                                    <h3  class="animated-icon"> <svg ms-2 xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg> Decentralization and security guarantees</h3>
-                                    <p>The decentralized structure makes the platform less susceptible to a single point of failure, safeguarding the stability and security of the system.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="contents">
-                                <div class="content ">
-                                    
-                                </div>
-                                <div class="content ">
-                                    <h3  class="animated-icon">  <svg ms-2 xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20"><path fill="currentColor" d="M11.078 0c.294 0 .557.183.656.457l.706 1.957c.253.063.47.126.654.192c.201.072.46.181.78.33l1.644-.87a.702.702 0 0 1 .832.131l1.446 1.495c.192.199.246.49.138.744l-.771 1.807c.128.235.23.436.308.604c.084.183.188.435.312.76l1.797.77c.27.115.437.385.419.674l-.132 2.075a.69.69 0 0 1-.46.605l-1.702.605c-.049.235-.1.436-.154.606a8.79 8.79 0 0 1-.298.774l.855 1.89a.683.683 0 0 1-.168.793l-1.626 1.452a.703.703 0 0 1-.796.096l-1.676-.888a7.23 7.23 0 0 1-.81.367l-.732.274l-.65 1.8a.696.696 0 0 1-.64.457L9.11 20a.697.697 0 0 1-.669-.447l-.766-2.027a14.625 14.625 0 0 1-.776-.29a9.987 9.987 0 0 1-.618-.293l-1.9.812a.702.702 0 0 1-.755-.133L2.22 16.303a.683.683 0 0 1-.155-.783l.817-1.78a9.517 9.517 0 0 1-.302-.644a14.395 14.395 0 0 1-.3-.811L.49 11.74a.69.69 0 0 1-.49-.683l.07-1.921a.688.688 0 0 1 .392-.594L2.34 7.64c.087-.319.163-.567.23-.748a8.99 8.99 0 0 1 .314-.712L2.07 4.46a.683.683 0 0 1 .15-.79l1.404-1.326a.702.702 0 0 1 .75-.138l1.898.784c.21-.14.4-.253.572-.344c.205-.109.479-.223.824-.346l.66-1.841A.696.696 0 0 1 8.984 0h2.094Zm-1.054 7.019c-1.667 0-3.018 1.335-3.018 2.983c0 1.648 1.351 2.984 3.018 2.984c1.666 0 3.017-1.336 3.017-2.984s-1.35-2.983-3.017-2.983Z"/></svg>   Improve collaboration efficiency and reduce costs</h3>
-                                    <p>It will greatly facilitate the development of global projects and the emergence of innovations, making collaboration less limited by traditional geographic constraints.</p>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="contents">
-                                <div class="content ">
-                                    
-                                </div>
-                                <div class="content ">
-                                    <h3  class="animated-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M7.475 21Q5.2 21 3.6 19.4T2 15.525q0-2.15 1.438-3.713t3.587-1.737L3 2h7l2 4l2-4h7l-4 8.025q2.125.2 3.563 1.763T22 15.5q0 2.3-1.6 3.9T16.5 21q-.225 0-.463-.013t-.462-.062q1.375-.9 2.15-2.337T18.5 15.5q0-2.725-1.888-4.612T12 9q-2.725 0-4.612 1.888T5.5 15.5q0 1.7.7 3.2t2.2 2.225q-.225.05-.463.063T7.476 21ZM12 20q-1.875 0-3.188-1.313T7.5 15.5q0-1.875 1.313-3.188T12 11q1.875 0 3.188 1.313T16.5 15.5q0 1.875-1.313 3.188T12 20Zm-1.85-1.75l1.85-1.4l1.85 1.4l-.7-2.275L15 14.65h-2.275L12 12.25l-.725 2.4H9l1.85 1.325l-.7 2.275Z"/></svg> Community governance and democratic decision-making</h3>
-                                    <p>Transactions, and decisions will be more efficient and transparent, saving time and resources, thus creating more economic value for users and organizations.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="contents">
-                                <div class="content">
-                          
-                                </div>
-                                <div class="content ">
-                                    <h3  class="animated-icon">   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.7 3.7 4.8 4v2.08C8 19.54 8 22 8 22h8s0-2.46-3-2.92V17c3.1-.3 4.4-2 4.8-4H20c1 0 2-1 2-2V2h-4M6 11H4V4h2v7m14 0h-2V4h2v7Z"/></svg>
-                                        Improve collaboration efficiency and reduce costs</h3>
-                                    <p>The decentralized governance structure will encourage community participation and innovation, making the platform healthier and more sustainable.</p>
-                                </div>
-                            </div>
-                        </div>
+
+                        </video>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-------------------------slider section----------------------------->
-        <section id="section-3">
-            <div class="section slider-section">
-                <h1>System Architecture</h1>
+                    <div class="goal-text">
 
-                <div class="slide-container active">
-                    <div class="slide">
-                        <div class="slide-content  mt-5">
-                            <h2 class="animated-text">Platform Application Layer</h2> 
-                            <p> 
-                                Many exciting decentralized collaboration scenarios have emerged based on CyberCrowdCoin's decentralized collaboration protocol, such as decentralized classified ads platforms, 
-                                decentralized B2B collaboration platforms, decentralized social e-commerce companies, and decentralized direct marketing platforms. The The CyberCrowdCoin platform has become
-                                 an important hub for connecting innovators, participants, and value creators and creates more opportunities and room for development for users around the world.
-                            </p>
-                        </div>
-                        <div class="image">
-                            <!-- <img src="./images/Platform.gif"> -->
-                            <video  preload="auto" autoplay muted loop>
-                                <source src="./images/platform.webm" type="video/webm">
-            
-                            </video>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide-container">
-                    <div class="slide">
-                        <div class="slide-content  ">
-                            <h2 class="animated-text">System Protocol Layer</h2>
-                            <p>
-                                The system protocol layer is the core part of the CyberCrowdCoin platform, and includes :collaboration protocol layer, data protocol layer, transaction protocol layer, and aggregation protocol layer.
-                                the various protocols work together to support the various functions of the platform and realize 
-                                decentralized collaboration and value exchange among users.
-                            </p>
-                        </div>
-                        <div class="image">
-                            <!-- <img src="./images/System.gif"> -->
-                            <video   preload="auto" autoplay muted loop>
-                                <source src="./images/system.webm" type="video/webm">
-            
-
-                            </video>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="slide-container ">
-                    <div class="slide">
-                        <div class="slide-content mt-5">
-                                <h2 class="animated-text">Infrastructure Layer</h2>
-                                <p>
-                                    The infrastructure layer provide a solid foundation for the efficient operation and decentralized collaboration
-                                     of the CyberCrowdCoin platform. It includes: the Web2 aggregation system, the Web3 aggregation system, theCross-Chain/
-                                    Cross-Layer technology, the smart contract library, and the modular blockchain technology.
-
+                        <div class="contents">
+                            <div class="content ">
+                                <h3 class="animated-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                        viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="m20 22l-3.86-1.55c.7-1.53 1.2-3.11 1.51-4.72L20 22M7.86 20.45L4 22l2.35-6.27c.31 1.61.81 3.19 1.51 4.72M12 2s5 2 5 10c0 3.1-.75 5.75-1.67 7.83A2 2 0 0 1 13.5 21h-3a2 2 0 0 1-1.83-1.17C7.76 17.75 7 15.1 7 12c0-8 5-10 5-10m0 10c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2Z" />
+                                    </svg> User data control and privacy protection</h3>
+                                <p>Users can independently select whether to share specific data with other users or
+                                    organizations, thus achieving a true sense of data autonomy and privacy protection.
                                 </p>
+                            </div>
                         </div>
-                        <div class="image">
-                            <!-- <img src="./images/Infrastructure.gif"> -->
-                            <video   preload="auto" autoplay muted loop >
-                                <source src="./images/infrastructure.webm" type="video/webm">
-            
-                                
-                            </video>
+
+                        <div class="contents">
+                            <div class="content ">
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg ms-2 xmlns="http://www.w3.org/2000/svg" width="30"
+                                        height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                                    </svg> Decentralization and security guarantees</h3>
+                                <p>The decentralized structure makes the platform less susceptible to a single point of
+                                    failure, safeguarding the stability and security of the system.</p>
+                            </div>
+                        </div>
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg ms-2 xmlns="http://www.w3.org/2000/svg" width="30"
+                                        height="30" viewBox="0 0 20 20">
+                                        <path fill="currentColor"
+                                            d="M11.078 0c.294 0 .557.183.656.457l.706 1.957c.253.063.47.126.654.192c.201.072.46.181.78.33l1.644-.87a.702.702 0 0 1 .832.131l1.446 1.495c.192.199.246.49.138.744l-.771 1.807c.128.235.23.436.308.604c.084.183.188.435.312.76l1.797.77c.27.115.437.385.419.674l-.132 2.075a.69.69 0 0 1-.46.605l-1.702.605c-.049.235-.1.436-.154.606a8.79 8.79 0 0 1-.298.774l.855 1.89a.683.683 0 0 1-.168.793l-1.626 1.452a.703.703 0 0 1-.796.096l-1.676-.888a7.23 7.23 0 0 1-.81.367l-.732.274l-.65 1.8a.696.696 0 0 1-.64.457L9.11 20a.697.697 0 0 1-.669-.447l-.766-2.027a14.625 14.625 0 0 1-.776-.29a9.987 9.987 0 0 1-.618-.293l-1.9.812a.702.702 0 0 1-.755-.133L2.22 16.303a.683.683 0 0 1-.155-.783l.817-1.78a9.517 9.517 0 0 1-.302-.644a14.395 14.395 0 0 1-.3-.811L.49 11.74a.69.69 0 0 1-.49-.683l.07-1.921a.688.688 0 0 1 .392-.594L2.34 7.64c.087-.319.163-.567.23-.748a8.99 8.99 0 0 1 .314-.712L2.07 4.46a.683.683 0 0 1 .15-.79l1.404-1.326a.702.702 0 0 1 .75-.138l1.898.784c.21-.14.4-.253.572-.344c.205-.109.479-.223.824-.346l.66-1.841A.696.696 0 0 1 8.984 0h2.094Zm-1.054 7.019c-1.667 0-3.018 1.335-3.018 2.983c0 1.648 1.351 2.984 3.018 2.984c1.666 0 3.017-1.336 3.017-2.984s-1.35-2.983-3.017-2.983Z" />
+                                    </svg> Improve collaboration efficiency and reduce costs</h3>
+                                <p>It will greatly facilitate the development of global projects and the emergence of
+                                    innovations, making collaboration less limited by traditional geographic
+                                    constraints.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                        height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M7.475 21Q5.2 21 3.6 19.4T2 15.525q0-2.15 1.438-3.713t3.587-1.737L3 2h7l2 4l2-4h7l-4 8.025q2.125.2 3.563 1.763T22 15.5q0 2.3-1.6 3.9T16.5 21q-.225 0-.463-.013t-.462-.062q1.375-.9 2.15-2.337T18.5 15.5q0-2.725-1.888-4.612T12 9q-2.725 0-4.612 1.888T5.5 15.5q0 1.7.7 3.2t2.2 2.225q-.225.05-.463.063T7.476 21ZM12 20q-1.875 0-3.188-1.313T7.5 15.5q0-1.875 1.313-3.188T12 11q1.875 0 3.188 1.313T16.5 15.5q0 1.875-1.313 3.188T12 20Zm-1.85-1.75l1.85-1.4l1.85 1.4l-.7-2.275L15 14.65h-2.275L12 12.25l-.725 2.4H9l1.85 1.325l-.7 2.275Z" />
+                                    </svg> Community governance and democratic decision-making</h3>
+                                <p>Transactions, and decisions will be more efficient and transparent, saving time and
+                                    resources, thus creating more economic value for users and organizations.</p>
+                            </div>
+                        </div>
+
+                        <div class="contents">
+                            <div class="content">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                        height="30" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.7 3.7 4.8 4v2.08C8 19.54 8 22 8 22h8s0-2.46-3-2.92V17c3.1-.3 4.4-2 4.8-4H20c1 0 2-1 2-2V2h-4M6 11H4V4h2v7m14 0h-2V4h2v7Z" />
+                                    </svg>
+                                    Improve collaboration efficiency and reduce costs</h3>
+                                <p>The decentralized governance structure will encourage community participation and
+                                    innovation, making the platform healthier and more sustainable.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div id="prev" onclick="prev()"> < </div>
-                <div id="next" onclick="next()"> > </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!-------------------------slider section----------------------------->
+    <section id="section-3">
+        <div class="section slider-section">
+            <h1>System Architecture</h1>
+
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="slide-content  mt-5">
+                        <h2 class="animated-text">Platform Application Layer</h2>
+                        <p>
+                            Many exciting decentralized collaboration scenarios have emerged based on CyberCrowdCoin's
+                            decentralized collaboration protocol, such as decentralized classified ads platforms,
+                            decentralized B2B collaboration platforms, decentralized social e-commerce companies, and
+                            decentralized direct marketing platforms. The The CyberCrowdCoin platform has become
+                            an important hub for connecting innovators, participants, and value creators and creates
+                            more opportunities and room for development for users around the world.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <!-- <img src="./images/Platform.gif"> -->
+                        <video preload="auto" autoplay muted loop>
+                            <source src="./images/platform.webm" type="video/webm">
+
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="slide-content  ">
+                        <h2 class="animated-text">System Protocol Layer</h2>
+                        <p>
+                            The system protocol layer is the core part of the CyberCrowdCoin platform, and includes
+                            :collaboration protocol layer, data protocol layer, transaction protocol layer, and
+                            aggregation protocol layer.
+                            the various protocols work together to support the various functions of the platform and
+                            realize
+                            decentralized collaboration and value exchange among users.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <!-- <img src="./images/System.gif"> -->
+                        <video preload="auto" autoplay muted loop>
+                            <source src="./images/system.webm" type="video/webm">
 
 
-        
-        <!-------------------------------------Eco Section------------------------------------------>
-            <section id="section-4">
-                <div class="section-goal section-goal2">
-                    <div class="goal-head">
-                        <h1>Ecological Co-constructor</h1>
-                        <div id="goal" class="goal">
-                            <div class="goal-img">
-                                <!-- <img src="./images/5.jpg.jpg"> -->
-                                <!-- <img src="./images/output-onlinegiftools.gif" alt="Your GIF"> -->
-                                <video class="goal-video"  preload="auto" autoplay muted loop   >
-                                    <source src="./images/eco2.webm" type="video/webm">
-                
-                                    
-                                </video>
-                                <!-- <iframe style="margin-left: 3rem;" width="600px" height="500px" src="./images/Section4-video.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slide-container ">
+                <div class="slide">
+                    <div class="slide-content mt-5">
+                        <h2 class="animated-text">Infrastructure Layer</h2>
+                        <p>
+                            The infrastructure layer provide a solid foundation for the efficient operation and
+                            decentralized collaboration
+                            of the CyberCrowdCoin platform. It includes: the Web2 aggregation system, the Web3
+                            aggregation system, theCross-Chain/
+                            Cross-Layer technology, the smart contract library, and the modular blockchain technology.
+
+                        </p>
+                    </div>
+                    <div class="image">
+                        <!-- <img src="./images/Infrastructure.gif"> -->
+                        <video preload="auto" autoplay muted loop>
+                            <source src="./images/infrastructure.webm" type="video/webm">
+
+
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div id="prev" onclick="prev()">
+                < </div>
+                    <div id="next" onclick="next()"> > </div>
+            </div>
+    </section>
+
+
+
+    <!-------------------------------------Eco Section------------------------------------------>
+    <section id="section-4">
+        <div class="section-goal section-goal2">
+            <div class="goal-head">
+                <h1>Ecological Co-constructor</h1>
+                <div id="goal" class="goal">
+                    <div class="goal-img">
+                        <!-- <img src="./images/5.jpg.jpg"> -->
+                        <!-- <img src="./images/output-onlinegiftools.gif" alt="Your GIF"> -->
+                        <video class="goal-video" preload="auto" autoplay muted loop>
+                            <source src="./images/eco2.webm" type="video/webm">
+
+
+                        </video>
+                        <!-- <iframe style="margin-left: 3rem;" width="600px" height="500px" src="./images/Section4-video.mp4">
                                 </iframe> -->
-                                
-                            </div>
 
-                            <div class="goal-text">
-                                <!--<h2>Investment Banking & <br> Capital Market</h2>-->
-                                <div class="contents">
-                                    
-                                    <div class="content ">
+                    </div>
 
-                                        <h3  class="animated-icon">  <svg class="icons2 ms-2"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg> Platform Developers</h3>
-                                        <p>Responsible for developing and maintaining the core CyberCrowdCoin infrastructure components.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="contents">
-                                    <div class="content ">
-                                        
-                                    </div>
-                                    <div class="content ">
-                                        <h3  class="animated-icon">  <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg> Protocol Developers</h3>
-                                        <p>Teams or individuals who follow the CyberCrowdCoin protocol and develop related protocols and products.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="contents">
-                                    <div class="content ">
-                                        
-                                    </div>
-                                    <div class="content ">
-                                        <h3  class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg> Protocol Operators</h3>
-                                        <p>Responsible for the operation of the CyberCrowdCoin protocol nodes to ensure the security and stability of the CyberCrowdCoin decentralized network.</p>
-                                    </div>
-                                </div>
-                                
-                                
-                                <div class="contents">
-                                    <div class="content ">
-                                        
-                                    </div>
-                                    <div class="content ">
-                                        <h3  class="animated-icon">  <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg> Web2 Service Providers</h3>
-                                        <p>Offer various support and services for the CyberCrowdCoin platform. </p>
-                                    </div>
-                                </div>
-                                
-                                <div class="contents">
-                                    <div class="content ">
-                                        
-                                    </div>
-                                    <div class="content ">
-                                        <h3  class="animated-icon">  <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg> Web3 Service providers</h3>
-                                        <p>Service providers that provide support for the decentralized features and services of the CyberCrowdCoin platform.</p>
-                                    </div>
-                                </div>
+                    <div class="goal-text">
+                        <!--<h2>Investment Banking & <br> Capital Market</h2>-->
+                        <div class="contents">
 
+                            <div class="content ">
 
-
-
-                                <div class="contents">
-                                    <div class="content">
-                                
-                                    </div>
-                                    <div class="content ">
-                                        <h3  class="animated-icon">     <svg class="icons2 ms-2"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z"/></g></svg>Offline Service Providers</h3>
-                                        <p>Provide offline physical services for the CyberCrowdCoin platform and cooperate with each other to expand the application scenarios of the platform.</p>
-                                    </div>
-                                </div>
-
-
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg> Platform Developers</h3>
+                                <p>Responsible for developing and maintaining the core CyberCrowdCoin infrastructure
+                                    components.</p>
                             </div>
                         </div>
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg> Protocol Developers</h3>
+                                <p>Teams or individuals who follow the CyberCrowdCoin protocol and develop related
+                                    protocols and products.</p>
+                            </div>
+                        </div>
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg> Protocol Operators</h3>
+                                <p>Responsible for the operation of the CyberCrowdCoin protocol nodes to ensure the
+                                    security and stability of the CyberCrowdCoin decentralized network.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg> Web2 Service Providers</h3>
+                                <p>Offer various support and services for the CyberCrowdCoin platform. </p>
+                            </div>
+                        </div>
+
+                        <div class="contents">
+                            <div class="content ">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg> Web3 Service providers</h3>
+                                <p>Service providers that provide support for the decentralized features and services of
+                                    the CyberCrowdCoin platform.</p>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="contents">
+                            <div class="content">
+
+                            </div>
+                            <div class="content ">
+                                <h3 class="animated-icon"> <svg class="icons2 ms-2" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                            <path fill="currentColor"
+                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Zm.005-14.242a1 1 0 0 0 0 1.414L13.832 11H7.757a1 1 0 0 0 0 2h6.076l-1.829 1.829a1 1 0 0 0 1.415 1.414l3.535-3.536a1 1 0 0 0 0-1.414L13.42 7.758a1 1 0 0 0-1.415 0Z" />
+                                        </g>
+                                    </svg>Offline Service Providers</h3>
+                                <p>Provide offline physical services for the CyberCrowdCoin platform and cooperate with
+                                    each other to expand the application scenarios of the platform.</p>
+                            </div>
+                        </div>
+
+
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------------------------------------Roadmap------------------------------------------>
+
+    <section id="section-5">
+        <div class="main-roadmap">
+
+            <section class="section-roadmap intro">
+                <div class="container">
+                    <h1>Roadmap</h1>
                 </div>
             </section>
 
+            <section class="timeline">
 
-
-        <!-------------------------------------Roadmap------------------------------------------>
-
-        <section id="section-5">
-                <div class="main-roadmap">
-
-                    <section class="section-roadmap intro">
-                        <div class="container">
-                        <h1>Roadmap</h1>
-                        </div>
-                    </section>
-                    
-                    <section class="timeline">
-                    
-                        <ol>
-                        <li>
-                            <div>
-                            <time>2023S3</time> Web3 Aggregation System 
+                <ol>
+                    <li>
+                        <div>
+                            <time>2023S3</time> Web3 Aggregation System
                             <br>
                             Data Protocol Layer
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                            <time>2023S4</time> 
-                            Web2 Aggregation System 
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2023S4</time>
+                            Web2 Aggregation System
                             <br>
                             Transaction Protocol Layer
-                            </div>
-                        </li>
-                        <li>
-                            <div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
                             <time>2024S1</time> Aggregation Protocol Layer
                             <br> Data Market Place
                             <br>Workflow Protocol
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                            <time>2024S2</time> 
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2024S2</time>
                             Cross Chain Tecnology
                             <br> Smart Contract Library
-                                <br> Collaboration Protocol Layer
-                            </div>
-                        </li>
-                        <li>
-                            <div>
+                            <br> Collaboration Protocol Layer
+                        </div>
+                    </li>
+                    <li>
+                        <div>
                             <time>2024S3</time> Cross Layer Technology
                             <br> Decentralized Crowd Creation Platform
                             <br>Modular Blockchain Formation
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                            <time>2024S4</time> 
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2024S4</time>
                             Cross-Chain Goverance DAO
                             <br> Collaborative Commerce Platform
-                            </div>
-                        </li>
+                        </div>
+                    </li>
 
-                        <li></li>
-                        </ol>
-                    
-                    </section>
-                                       
+                    <li></li>
+                </ol>
 
+            </section>
+
+
+        </div>
+
+    </section>
+
+    <!-------------------------------------partner------------------------------------------>
+
+    <section id="section-partners">
+        <div class="section-goal">
+            <div class="goal-head">
+                <h1>Partners</h1>
+            </div>
+        </div>
+
+        <div class="main-partners">
+
+            <div class="partner-rows">
+                <div class="partner-row">
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/metabit.png" alt="METABIT NETWORK" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">METABIT NETWORK</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/seor.png" alt="SEOR Network" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">SEOR Network</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/msap.png" alt="MSAP" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">MSAP</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/meme.png" alt="MEME exchange" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">MEME exchange</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/antmons.png" alt="Antmons" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Antmons</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/getaverse.png" alt="Getaverse" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Getaverse</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/bayesian.png" alt="Bayesian" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Bayesian</span>
+                        </a>
+                    </div>
                 </div>
+                <div class="partner-row">
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/godechain.png" alt="GODE CHAIN" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">GODE CHAIN</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/beosin.png" alt="Beosin" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Beosin</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/coinmarketcap.png" alt="Coinmarketcap" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Coinmarketcap</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/coinhome.png" alt="CoinHome" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">CoinHome</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/joyid.png" alt="JoyID Protocol" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">JoyID Protocol</span>
+                        </a>
+                    </div>
+                    <div class="social-link">
+                        <a>
+                            <img src="./images/partners/poloniex.png" alt="Poloniex Exchange" style="width: 35px; height: 35px;"/>
+                            <span style=" color: black;">Poloniex Exchange</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
 
-          </section>
 
 
-
-<!--------------------------floating button-------------------->
+    <!--------------------------floating button-------------------->
     <div class="float ">
         <hr>
         <div class="floating">
             <a href="https://twitter.com/CCCPROTOCOLUP"><img src="./images/twitter.png" alt="1"></a>
-        <!--<a href=""><img src="./images/medium.svg" alt="2"></a>
+            <!--<a href=""><img src="./images/medium.svg" alt="2"></a>
             <a href=""><img src="./images/discord.svg" alt="3"></a>-->
             <a href="https://t.me/cccweb3protocol"><img src="./images/paper-plane-solid.png" alt="4"></a>
         </div>
         <div class="floating-parent">
             <button class="right-button">
                 <a href="mailto:cccbusiness0@gmail.com">Contact us</a></button>
-            </div>
         </div>
-    </div>    
+    </div>
+    </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-            crossorigin="anonymous"></script>    
-            <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-        
-        <!------------------------------navbar script-------------------------->
-        <script>
-            document.addEventListener('scroll', () => {
-                const header = document.querySelector('header');
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 
-                if (window.scrollY > 0) {
-                    header.classList.add('scrolled');
-                } else {
-                    header.classList.remove('scrolled');
+    <!------------------------------navbar script-------------------------->
+    <script>
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
 
-                }
-            })
-        </script>
-        <script>
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
 
-            let slides = document.querySelectorAll('.slide-container');
-            let index = 0;
-
-            //next function
-            function next(){
-                slides[index].classList.remove('active');
-                index = (index + 1) % slides.length;
-                slides[index].classList.add('active');
             }
+        })
+    </script>
+    <script>
 
-            //previous function
-            function prev(){
-                slides[index].classList.remove('active');
-                index = (index - 1 + slides.length) % slides.length;
-                slides[index].classList.add('active');
-            }
+        let slides = document.querySelectorAll('.slide-container');
+        let index = 0;
 
-        </script>
-    </body>
+        //next function
+        function next() {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        //previous function
+        function prev() {
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+    </script>
+</body>
+
 </html>
